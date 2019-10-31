@@ -1,2 +1,4 @@
-include ':app', ':baselib'
+include ':app'
+include ':baselib'
+project(':baselib').projectDir = new File("CommonLib/baselib")
 rootProject.name='SubModuleTest'
